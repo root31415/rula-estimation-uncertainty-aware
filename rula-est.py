@@ -465,7 +465,7 @@ if __name__ == "__main__":
         print(f"Error loading YOLO model: {e}. Ensure it's installed or path is correct.")
         exit()
 
-    image_path = "8.jpg" # Replace with your image
+    image_path = "images/8.jpg" # Replace with your image
     
     # Attempt to load image and run prediction
     try:
